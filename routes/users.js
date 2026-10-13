@@ -1,6 +1,5 @@
 import express from "express";
 import authMiddleware from "../middleware/authMiddleware.js";
-import allowRoles from "../middleware/allowRole.js";
 import userUpload from "../config/multer.js";
 
 
