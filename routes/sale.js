@@ -1,6 +1,6 @@
 
 import express from "express";
-import allowRoles from "../middleware/allowRole.js";
+
 
 import {
     createSale ,
