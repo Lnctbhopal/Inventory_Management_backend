@@ -4,7 +4,7 @@ import cookieParser from "cookie-parser";
 import logger from "morgan";
 import path from "path";
 
-import {errorHandler} from "./middleware/errorHandler.js"
+// import {errorHandler} from "./middleware/errorHandler.js"
 
 import indexRouter from "./routes/index.js";
 import usersRouter from "./routes/users.js";
@@ -69,6 +69,6 @@ app.use((req, res, next) => {
 // ERROR HANDLER
 // ======================================================
 
-app.use(errorHandler);
+// app.use(errorHandler);
 
 export default app;
